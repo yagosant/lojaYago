@@ -5,9 +5,52 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  color: darkblue;
+  background-color: aliceblue;
+  text-align: center;
+  padding: 20px;
+}
+.menu{
+  background-color: cornflowerblue;
+}
+.menu ul {
+list-style: none;
+display: flex;
+}
+
+.menu ul li a {
+  display: block;
+  padding: 5px 10px;
+}
+
+.catalogo{
+  padding: 40px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+}
+
+.promocao{
+  grid-column: 1/4;
+  margin-bottom: 30px;
+}
+
+.produto{
+  padding: 10px;
+  border: 2px solid white;
+  width: 300px;
+}
+
+.produto img{
+  width: 300px;
+}
+
