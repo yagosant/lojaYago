@@ -1,12 +1,13 @@
-function Menu(){
+import Search from "./Search";
+
+function Menu(props){
     return (
         <nav className="menu">
-            <ul>
-                <li><a>Inicio</a></li>
-                <li><a>Sobre</a></li>
-                <li><a>Yago</a></li>
-            </ul>
-        </nav>
+        <ul>
+            <a href="#"><img src='https://cdn-icons-png.flaticon.com/512/3/3761.png' className="icone"></img></a>
+            <li><Search clickCategoria ={props.clickCategoria} limpaPesquisa = {props.limpaPesquisa}></Search></li>
+        </ul>
+    </nav>
     )
 }
 

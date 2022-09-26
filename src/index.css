@@ -26,17 +26,13 @@ code {
 }
 .menu{
   background-color: yellow;
-  color: black;
 }
+
 .menu ul {
 list-style: none;
 display: flex;
 }
 
-.menu ul li a {
-  display: block;
-  padding: 5px 10px;
-}
 
 .catalogo{
   
@@ -65,4 +61,42 @@ display: flex;
   background-color: yellow;
   font-size: 16px;
   justify-content: center;
+}
+
+ .icone{
+  width: 45px;
+  height: 45px;
+ }
+
+ #divBusca{
+  background-color:#E0EEEE;
+  border:solid 2px #5F9EA0;
+  border-radius:10px;
+  width:300px;
+  height:32px;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+
+#btnBusca{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px;
+  font-weight:bold;
+  background:black;
+  color: yellow;
+}
+
+#divBusca img{
+  float:left;
 }
