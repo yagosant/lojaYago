@@ -7,7 +7,7 @@ function Produto(props){
             <p>{props.produto.descricao}</p>
             <p>{props.produto.categoria}</p>
             <p>{props.produto.filtro}</p>
-            <button className="button"> Comprar</button>
+            <button className="button"> Comprar Roupinha</button>
         </div>
     );
 }

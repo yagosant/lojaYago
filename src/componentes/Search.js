@@ -6,8 +6,7 @@ function Search(props){
 
     return(
         <div id="divBusca">
-        <input type="text" id="txtBusca" placeholder="Buscar..." onChange ={props.clickCategoria}/>
-        <button id="btnBusca" onClick={props.limpaPesquisa}>Buscar</button>
+        <input type="text" id="txtBusca" placeholder="Informe o personagem" onChange ={props.clickCategoria}/>
       </div>
     );
 }
